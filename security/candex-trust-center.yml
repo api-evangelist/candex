@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.candex.com/
+url: https://trust.candex.com/
+platform: Vendict
+certifications:
+- SOC 2 Type II
+- ISO 27001
+programs:
+- Global privacy program (privacy by design, accountability, transparency)
+- Information security & data privacy team led by a CISO and Global Data Protection Officer
+evidence:
+- source: https://trust.candex.com/
+  kind: trust-center
+  note: Vendict-powered trust center reachable (HTTP 200); certification detail rendered client-side.
+- source: https://www.candex.com/Topics/ESG
+  kind: compliance-claim
+  note: Candex publicly states it maintains SOC 2 Type II attestation and ISO 27001 certification.

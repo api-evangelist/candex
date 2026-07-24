@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.candex.com/
+status_page: https://status.candex.com/
+status_page_platform: StatusCake
+versioning: null
+deprecation: null
+sla: null
+notes: >-
+  Candex operates a public StatusCake-hosted service status page (uptime history / 7-day
+  uptime). It exposes no public API developer portal, so no published versioning, deprecation,
+  or SLA policy could be found. Deprecated-operation derivation is not possible without an
+  OpenAPI spec in this repo.
+deprecated_operations: []

@@ -1,9 +1,29 @@
 aid: candex
 name: Candex
-description: 'Candex is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Candex is a fintech "master vendor" platform that lets large enterprises engage, track,
+  and pay long-tail, one-time, and hard-to-onboard suppliers across more than 50 countries
+  without setting each vendor up in their own ERP or finance systems. A buyer configures
+  Candex once; when it needs to purchase from a small or irregular supplier, it transacts
+  with Candex, which handles supplier onboarding, tax and banking validation, compliance
+  scans, PO and non-PO invoicing, and cross-border payment execution, then remits to the
+  actual supplier. By consolidating tail-spend vendors and their records, Candex reduces
+  administrative overhead, increases spend visibility and control, and makes "No PO, No Pay"
+  policies achievable. The company integrates with existing procurement and finance stacks
+  via API and bulk upload, but publishes no public developer portal or API reference.
 url: https://raw.githubusercontent.com/api-evangelist/candex/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.candex.com/apple-touch-icon-144x144.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Financial Services
+- Fintech
+- Payments
+- Procurement
+- Procure-to-Pay
+- Tail Spend
+- Vendor Management
+- Accounts Payable
+- B2B Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.candex.com/
+- type: Pricing
+  url: https://www.candex.com/Pricing
+- type: HelpCenter
+  url: https://help.candex.com/hc/en-001
+- type: TermsOfService
+  url: https://www.candex.com/Home/TermsOfUse
+- type: PrivacyPolicy
+  url: https://www.candex.com/Home/PrivacyPolicy
+- type: Login
+  url: https://www.candex.com/SignIn/LogOn
+- type: SignUp
+  url: https://www.candex.com/Registration/RegistrationRequest
+- type: Blog
+  url: https://media.candex.com/
+- type: StatusPage
+  url: https://status.candex.com/
+- type: Lifecycle
+  url: lifecycle/candex-lifecycle.yml
+- type: TrustCenter
+  url: https://trust.candex.com/
+- type: Compliance
+  url: https://trust.candex.com/
+- type: DomainSecurity
+  url: security/candex-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
